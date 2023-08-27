@@ -113,6 +113,7 @@ class InteractiveMapsMarkerState extends State<InteractiveMapsMarker> {
   Widget build(BuildContext context) {
     return StreamBuilder<int>(
       initialData: 0,
+      stream: null,
       builder: (context, snapshot) {
         return Stack(
           children: <Widget>[
